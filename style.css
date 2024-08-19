@@ -1,0 +1,128 @@
+.p{
+    background-color: blue;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    }
+    
+    /*GLOBAL*/
+    .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+    }
+    /*header*/
+    header{
+    background-color: #FFFFFF;
+    color: black;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:blue 5px solid;
+    }
+    
+    ul{
+    padding: 0;
+    margin: 0;
+    color: blue;
+    
+    }
+    
+    header a{
+        text-transform:uppercase ;
+        text-decoration: none;
+        color: blue;
+        font-size: 16px;
+    }
+    
+    header li{
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
+    }
+    
+    header #branding{
+        float: left;
+    }
+    
+    header nav{
+        float: right;
+        margin-top: 25px;
+    }
+    
+    
+    /*showcase*/
+    
+    #showcase{
+        min-height: 400px;
+        background: url("webdevelopment.jpeg")no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+    
+        font-weight: bolder;
+    }
+    
+    #showcase h1{
+        color: rgb(19, 173,140);
+        margin-top: 100px;
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+    
+    #showcase p{
+        font-size: 25px;
+        color: white;
+    }
+    /*testing*/
+    #newsletter{
+    padding: 20px;
+    color: rgb(228, 55, 55);
+    background-color: #07d7d7;
+    
+    
+    
+    }
+    #newsletter h1{
+        float: left;
+    }
+    
+    #newsletter form{
+    
+        float: right;
+        margin-top: 15px;
+    }
+    #newsletter input[type="email"]{
+        padding: 4px;
+        height: 20px;   
+        width: 250px;
+        border: none;
+        text-align: center;
+        border-bottom: 3px solid red;
+        color: #ff0088;
+        
+        
+        }
+        button{
+     width: 100px;
+     height: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+    
+        }
+        
+        #boxes{
+            margin-top:20px;
+            
+        }
+        #boxes  #box{
+            text-align: center;
+            width:30%;
+            padding: 10px;
+            float: left;
+        }
+        
